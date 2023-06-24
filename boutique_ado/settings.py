@@ -25,7 +25,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-dsouths-boutiqueado-wcikrgztgmj.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ['8000-dsouths-boutiqueado-70w1wcjen5p.ws-eu100.gitpod.io']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
